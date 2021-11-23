@@ -1,0 +1,43 @@
+
+body{
+    margin: 0;
+    /* overflow-x:hidden;
+    overflow-y:hidden; */
+}
+
+.ele{
+    background-color: rgb(241, 23, 23);
+    margin-top: 0;
+    margin-bottom: 5px;
+    height: 10%;
+    width: 100%;
+    position:relative;
+}
+
+
+div.left_cont{
+    position: fixed;
+    background-color: aquamarine;
+    /* float: left; */
+    height: 50vh;
+    width: 10%;
+}
+
+
+
+div.root_options
+{
+    height: 50vh;
+    width: 10%;
+	position:fixed;
+	left: 0%;
+    bottom: 0%;
+    background: rgb(26, 209, 41);
+}
+
+.right_cont{
+    background-color: blue;
+    float: right;
+    height: 100vh;
+    width: 90%;
+}
